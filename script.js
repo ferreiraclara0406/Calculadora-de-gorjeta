@@ -33,5 +33,4 @@ botoesGorjeta.forEach(botao => {
 })
 
 function receberPorcentagem(evento) {
-    console.log(evento.target.value)
-}
+    
