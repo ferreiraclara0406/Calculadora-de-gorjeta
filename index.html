@@ -3,45 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Gorjeta</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Calculadora de Gorjeta</title>
 </head>
 <body>
     <header>
-        <img src="./images/logo.svg" alt="Logo do Solitter">
+        <img src="./images/logo.svg" alt="Logo do Splitter">
     </header>
+
     <main>
-        <section class="informacoes">
+        <section class="Informaçoes">
             <form action="">
                 <div class="conta">
-                    <label for="conta">Conta</label>
+                    <label for="conta">conta</label>
                     <div>
-                        <img src="./images/icon-dollar.svg" alt="icone de cifrão">
-                        <input type="number" name="conta" id="conta" placeholder="0">
+                        <img src="./images/icon-dollar.svg" alt="icone do cifrão">
+                        <input type="text" name="conta" id="conta" placeholder="0">
                     </div>
                 </div>
-
                 <div class="gorjeta">
-                    <label for="outra">Selecione a gorjeta %</label>
+                    <label>Selecione a gorjeta %</label>
 
                     <div>
-                        <input type="button" value="5%">
+                        <input type="button" value="5%" >
                         <input type="button" value="10%">
                         <input type="button" value="15%">
                         <input type="button" value="25%">
                         <input type="button" value="50%">
-                        <input type="number" name="outra" id="outra" placeholder="outra">
+                        <input type="number" value="Outra" id="outra" placeholder="Outra">
                     </div>
                 </div>
 
                 <div class="pessoas">
-                    <label for="conta">Quantidade de pessoas</label>
+                  <div class="textos">
+                    <label for="pessoas">Quantidade de pessoas</label>
                     <p id="erro">Não pode ser zero</p>
-                    <div>
-                        <img src="./images/icon-person.svg" alt="icone da pessoa">
+                  </div>
+                    <div class="input-box">
+                        <img src="./images/icon-person.svg" alt="Icone da pessoa">
                         <input type="number" name="pessoas" id="pessoas" placeholder="0">
                     </div>
                 </div>
@@ -49,26 +51,25 @@
         </section>
 
         <section class="resultados">
-           <div>
+          <div>
             <div class="gorjeta-total">
                 <p>
                     <strong>Gorjeta</strong> <br>
-                    / pessoas
+                    /pessoas
                 </p>
 
                 <strong>R$ 0.00</strong>
             </div>
-
             <div class="total">
                 <p>
-                    <strong>Total</strong> <br>
-                    / pessoas
+                    <strong>total</strong> <br>
+                    /pessoas
                 </p>
 
                 <strong>R$ 0.00</strong>
             </div>
-           </div>
-            <button>limpar</button>
+          </div>
+            <button>Limpar</button>
         </section>
     </main>
 </body>
