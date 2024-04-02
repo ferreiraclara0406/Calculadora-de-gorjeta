@@ -79,8 +79,8 @@ main{
 
 .conta:has(input:focus) div,
 .conta:has(input:hover) div,
-.pessoas:has(input:focus) .input-box,
-.pessoas:has(input:hover) .input-box,
+.pessoas:has(input:focus).input-box,
+.pessoas:has(input:hover).input-box,
 .gorjeta #outra:focus,
 .gorjeta #outra:hover{
     outline: 2px solid var(--light-green);
